@@ -1,0 +1,4 @@
+FAILURE: test_is_valid_word() with wildcards
+	Expected False, but got True for word: 'e*m' and hand: {'a': 1, 'r': 1, 'e': 1, 'j': 2, 'm': 1, '*': 1}
+FAILURE: test_is_valid_word() with wildcards
+	Expected False, but got True for word: 'c*wz' and hand: {'c': 1, 'o': 1, '*': 1, 'w': 1, 's': 1, 'z': 1, 'y': 2}
