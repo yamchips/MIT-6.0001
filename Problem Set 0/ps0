@@ -1,0 +1,12 @@
+# -*- coding: utf-8 -*-
+"""
+Created on Sun Jul 10 15:43:39 2022
+
+@author: yamchips
+"""
+
+import numpy as np
+x = float(input('Enter number x: '))
+y = float(input('Enter number y: '))
+print('x**y =',x**y)
+print('log(x) =', np.log2(x))
