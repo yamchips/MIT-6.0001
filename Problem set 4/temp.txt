@@ -1,0 +1,12 @@
+        secretMessage = ''
+        shift = 10
+        lowerletters = string.ascii_lowercase
+        upperletters = string.ascii_uppercase
+        for letter in self.message_text:
+            if letter in lowerletters:
+                secretMessage + (2*lowerletters)[lowerletters.find(letter)+shift]
+            elif letter in upperletters:
+                secretMessage + (2*upperletters)[upperletters.find(letter)+shift]
+            else:
+                secretMessage + letter
+
